@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-server
+
+encrypt:
+  key-store:
+    location: file:/server.jks
+    password: letmein
+    alias: goblogkey
+    secret: changeme
